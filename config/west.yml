@@ -8,11 +8,4 @@ manifest:
       revision: main
       import: app/west.yml
   self:
-    path: config
-  include:
-  - board: nice_nano_v2
-    shield: kyria_rev2_left
-  - board: nice_nano_v2
-    shield: kyria_rev2_right
-  - board: nice_nano_v2
-    shield: settings_reset
+    path: configz
